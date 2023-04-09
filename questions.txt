@@ -1,0 +1,170 @@
+1. write an int method cube() that returns the cube of the value inserted?
+2. write a float method triangle() that computes the area of a triangle using its two formal parameters
+    h and w, where h is the height and w is the length of the bases of the triangle.
+
+3. write a float method rectangle() that computes and returns the area of a rectangle
+    using its two float formal parameters h and w where h is the height and w is the width of the rectangle.
+
+4. the formula for a line is normally given as y = mx +b. write  a method Line() that expects three
+    float formal parameters, a slop m, a y-intercept b, and an x-coordinate x. the
+    method computes the y-coordinate associated with the line specified by m and b at 
+    x-coordinate.
+
+5. write a method intersect() with four float parameters m1,b1,m2,b2. the parameters come conceptually in two pairs. 
+the first pair contains the coefficients describing one line; the second pair contains coefficients describing a second line.
+ the method returns 1 if the two lines intersect. otherwise, it should return 0;
+
+
+ 6. write a program that accepts a positive integer from the user and displays the factorial of the given number.
+ you should use a recursive method called factorial() to calculate the factorial of the number.
+
+
+ 7. write another program that accepts a number form the user and returns the Fibonacci value of that number.
+ you should use recursion in here.
+
+ 8. write a program to the find the following 
+    a. prime number checking.
+    b. sum of digit.
+
+
+9. write a program to arrange the numbers in ascending order.
+
+10. write a program accepts list of marks of students and counts the number of students who have
+scored marks greater than 20 in an exam out of 30 . the total number of students who took the test
+is to be entered form the keyboard.
+
+11. write and run a program that reads 9 digit phone number and then prints "mobile." if the phone number start
+with 9, otherwise it prints "fixed phone." for example if the phone number is 911999999. it prints "mobile".
+
+12. write a program that displays the maximum and the minimum of a list of numbers entered from the keyboard.
+where the size of the list is to be entered from the keyboard.
+
+13. write a program that reverses the digits of a given positive integer number entered from the keyboard.
+
+
+14. write a program that searches for the Greatest Common Divisor(GCD) for two natural numbers.
+
+15. write a program that searches for the least common multiple(LCM) of two natural numbers.
+
+16. write a program to sum the following series:
+
+1/3 + 3/5 + 7/9 +9/11 + 11/13 + ... + 95/97 + 97/99
+
+
+17. an ISBN (international standard book number ) consists of 10 digits
+d1d2d3d4d5d6d7d8d9d10. the last digit is a checksum , which is calculated form the other nine digit
+using the following formula.
+(d1*1 +d2*2 +d3*3 +d4*4 + d5*5 +d6*6+d7*7 +d8*8 + d9*9)%11
+if the checksum is 10 , the last digit is denoted X according to the ISBN convention.
+write a program that prompts the user to enter the first 9 digits and displays the 10-digits ISBN
+(including leading zeros). your program should read the input as an integer.
+for example if you enter 013601267, the program should display 0136012671.
+
+
+18. write an application that computes the value of e^x by using the formula.
+
+    e^x = 1+ x/1! + x^2/2!  + x^3/3! +...
+
+
+19. write a program that displays all the leap year , ten per line, in the twenty-first century
+(from 2001 to 2100).
+
+20. write a program that reads integers, finds the largest of them, and counts its occurrences.
+assume that the input ends with number 0. suppose that you entered 3 5 2 5 5 5 0; the program finds that
+the largest is 5 and the occurrence count for 5 is 4.
+
+(hint: maintain two variables, max and count. max stores the current max number,and
+count stores its occurrences. initially , assign the first number to max and 1 to count.
+compare each subsequent number with max. if the number is greater than max , assign it to
+max and reset count to 1. if the number is equal to max, increment count by 1.)
+
+e.g enter numbers: 3 5 2 5 5 5 0
+the largest number is 5.
+the occurrence count of the largest number is 4.
+
+
+21. write a program that displays all integers between low and high that are the sum of the coube
+of their digits, in other words, find all numbers xyz such that xyz= x^3 +y^3 +z^3, for 
+example, 153 = 1^3 + 5^3 +3^3, try 100 for low and 1000 for high.
+
+
+22. write a program that returns the number of digits in an integer argument; for example
+23,498 has five digits. the program repeatedly asks for input and displays the number of digits 
+the input integer has. stop the repetition when the input value is negative.
+
+23. there are 25 primes between 2 and 100, and there are1229 primes between 2 and 10000.
+write a program that inputs a positive integer N>2 and displays the number of primes between 2 and N(inclusive).
+
+24. a perfect number is a positive integer that is equal to the sum of its proper divisors.
+a proper divisor is a positive integer other than the number itself that divides the number evenly(i.e no remainder).
+for example, 6 is a perfect number because the sum of its proper divisors 1,2,and 3 is equal to 6. the next is 28 =14 +7+4+2+1.
+there are four perfect numbers less than 10000.eight is not a perfect number because 1 +2+4+8. write a program that accepts a positive integer and determines whether the number is perfect. also display all proper divisors of the number.
+
+
+25. write a program that reads an unspecified number of integers, determines how many positive and negative values have been read, and computes the total and average of the input
+value (not counting zeros). your program ends with the input 0. display the average as a floating-point number.here is a sample run:
+
+enter an int value, the program exits if the input is 0:
+the number of positives is 3
+the number of negatives is 1
+the total is 5
+the average is 1.25
+
+26. suppose that the tuition for a university is $10,000 this year and increases 5% every year.
+write a program that computes the tuition in ten years and the total cost of four years'
+worth of tuition starting ten years from now.
+
+27.write a program that convert from kilogram to pounds , miles to kilometers, and form hour to minutes based on the choice of the user.
+
+28. write a program that prompts the user to enter the number of students and each student's name and score,
+and finally displays the student with the highest score and the student with the second-highest score.
+
+29. write a program that promotes the user to enter the number of students and each student's
+name and score, and finally displays the name of the student with the highest score.
+
+30. write a program that displays all the numbers from 100 to 200, ten per line, that are divisible by 5 or 6 , but not both.
+
+
+31. write a program that prints the characters in the ASCII character table from '!' to '~'
+print ten characters per line.
+
+32. use nested loops that print the following patterns in four separate programs:
+
+pattern I 
+      1
+    2 1
+  3 2 1
+4 3 2 1
+
+pattern II
+
+1 2 3 4
+  1 2 3
+    1 2
+      1
+
+33. write a program that prompts the user to enter an integer from 1 to 15 and displays a
+pyramid, as shown in the following sample run:
+
+enter the number of lines: 4
+     1
+   2 1 2
+ 3 2 1 2 3
+4 3 2 1 2 3 4
+
+36. write a program that prompts the user to enter a decimal integer and display its corresponding hexadecimal value.
+
+37. develop a program that uses the method factorial() to compute an approximation of e (Euler's number). base your approximation on the following formula for e: 1 + 1/1! + 1/2! + 1/3! + ....
+
+38. write a method called isPrime() that accepts a number and determine whether the number is prime or not.
+
+39. write a method called isEven() the user the remainder operator (%) to determine whether an integer is even or not.
+
+40. modify our calculator problem of worksheet-3 using four mehtods sum(),product(),quotient() and difference().
+
+41. write a python code that computes the sum of the following series, sum = 1! + 2! + 3! + 4! +.....n!.
+
+######                  THE END              ######
+
+
+
