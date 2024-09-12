@@ -1,1 +1,1 @@
-# this is python practice questions 
+# Python practice questions 
